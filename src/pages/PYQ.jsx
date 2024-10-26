@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './PYQ.css';
+import './pyq.css';
 
 const pyqData = {
     CSE: {
@@ -78,7 +78,7 @@ const pyqData = {
     },
 };
 
-const PYQ = () => {
+const pyq = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedDepartment, setSelectedDepartment] = useState('ECT');
     const [selectedYear, setSelectedYear] = useState('BY'); // Default selected year
@@ -161,4 +161,4 @@ const PYQ = () => {
     );
 };
 
-export default PYQ;
+export default pyq;

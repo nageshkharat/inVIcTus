@@ -20,7 +20,7 @@ function App() {
                 <Route path="/find-faculty" element={<Faculty />} />
                 <Route path="/clubs" element={<ClubDirectory />} />
                 <Route path="*" element={<Error />} />
-                <Route path="/PYQ" element={<PYQ />} />
+                <Route path="/pyq" element={<pyq />} />
             </Routes>
         </Router>
     );
